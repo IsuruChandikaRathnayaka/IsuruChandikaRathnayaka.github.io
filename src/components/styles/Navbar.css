@@ -1,0 +1,36 @@
+.hiringbtn:hover{
+    background:#C70039;
+    color:#fff;
+
+}
+
+.hiringbtn{
+    color:#C70039;
+    font-weight: bold;
+
+}
+/* Navbar.css */
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+    position: relative; /* Position relative for pseudo-element */
+    padding-bottom: 5px; /* Space for the line */
+    transition: border-bottom-color 0.3s ease; /* Transition effect for smoother animation */
+}
+
+/* Add a pseudo-element to create the line */
+.navbar-nav .nav-link::after {
+    content: ''; /* Empty content */
+    position: absolute; /* Position absolute to position the line */
+    bottom: 0; /* Align the line to the bottom */
+    left: 0; /* Start the line from the left */
+    width: 100%; /* Full width */
+    height: 2px; /* Line thickness */
+    background-color: transparent; /* Initially transparent */
+    transition: background-color 0.3s ease; /* Transition effect for smoother animation */
+}
+
+/* Show the line on hover */
+.navbar-nav .nav-link:hover::after {
+    background-color: red; /* Change the background color on hover */
+}
