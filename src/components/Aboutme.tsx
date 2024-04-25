@@ -19,7 +19,7 @@ function Aboutme(){
                         </div>
                         <div className='col-md-6 mx-2 p-2' style={{border:'1px solid white',borderRadius:'10px'}}>
                             <h3 className='text-center text-danger'>Education</h3>
-                            <p className='text-center text-light'><b>BEng.Software Engineering<br/>Masters degeree</b></p>
+                          
                             
                         </div>
                    </div>
